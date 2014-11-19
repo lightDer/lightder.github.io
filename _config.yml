@@ -3,7 +3,7 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
+title:            Test without ruby
 tagline:          The Jekyll Butler
 url:              http://getpoole.com
 paginate:         1
@@ -16,4 +16,4 @@ author:
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           http://lightder.github.io/
