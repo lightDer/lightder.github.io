@@ -3,6 +3,8 @@ layout: default
 ---
 
 <article class="page">
+{% for post in site.related_posts limit:2 %}
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
+{% endfor %}
 </article>
