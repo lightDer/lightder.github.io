@@ -13,6 +13,8 @@ int main() {
 ```
 
 測試中文環境，許功蓋。
+測試 `inline code`
+
 
 ### Thanks for Pople
 
