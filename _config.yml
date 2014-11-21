@@ -17,3 +17,8 @@ author:
 version:          1.0.0
 github:
   repo:           http://lightder.github.io/
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
