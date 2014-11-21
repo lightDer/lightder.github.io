@@ -5,7 +5,7 @@ relative_permalinks: true
 # Setup
 title:            Dec 03
 tagline:          setep forward
-url:              http://getpoole.com
+url:              
 paginate:         1
 baseurl:          /
 author:
@@ -17,3 +17,6 @@ author:
 version:          1.0.0
 github:
   repo:           http://lightder.github.io/
+
+kramdown:
+  input: GFM

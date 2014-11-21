@@ -5,12 +5,12 @@ title: My first github page
 
 
 -----
-{% highlight c %}
+```c
 int main() {
     printf("Hello github page & Jekyll");
     return;
 }
-{% endhighlight %}
+```
 
 測試中文環境，許功蓋。
 
