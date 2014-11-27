@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My first github page
+tags: c/c++, javascript
 ---
 
 ```c
@@ -8,6 +9,7 @@ int main() {
     printf("Hello github page & Jekyll");
     return;
 }
+//0123456789_0123456789_0123456789_0123456789_0123456789_0123456789_0123456789
 ```
 
 測試中文環境，許功蓋。
