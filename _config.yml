@@ -20,8 +20,6 @@ github:
 
 # markdown
 markdown: redcarpet
-pygments: true
-pygments_options: ['lineanchors', 'linenos=table']
 
 # page
 pages_list:       
