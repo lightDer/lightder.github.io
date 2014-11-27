@@ -18,5 +18,6 @@ version:          1.0.0
 github:
   repo:           http://lightder.github.io/
 
-kramdown:
-  input: GFM
+markdown: redcarpet
+pygments: true
+pygments_options: ['lineanchors', 'linenos=table']
