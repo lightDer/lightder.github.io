@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Dec 03
-tagline:          setep forward
+tagline:          step forward
 url:              
 paginate:         1
 baseurl:          /
