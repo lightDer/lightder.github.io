@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-Jus keep moving forward.
+Just keep moving forward.
