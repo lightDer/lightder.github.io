@@ -1,17 +1,16 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Dec 03
+title:            June 18
 tagline:          step forward
-url:              
-paginate:         1
+url:
+paginate:         5
 baseurl:          /
 author:
-  name:           
-  url:            
-  email:          
+  name:
+  url:
+  email:
 
 # Custom vars
 version:          1.0.0
@@ -23,8 +22,10 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
+plugins: ["jekyll-paginate"]
+
 # page
-pages_list:       
+pages_list:
   About: '/about'
   Archive: '/archive'
   Feed: '/atom.xml'
