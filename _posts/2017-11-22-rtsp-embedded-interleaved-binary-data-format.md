@@ -41,5 +41,5 @@ S->C: $006{2 octet length}{"length" octets  RTCP packet}
 
 ## reference
 
-- [rfc7826#page-101Embedded](https://tools.ietf.org/html/rfc7826#page-101Embedded) (Interleaved) Binary Data method
+- [rfc7826#page-101 Embedded](https://tools.ietf.org/html/rfc7826#page-101) (Interleaved) Binary Data method
 - [rfc7826#section-18.54](https://tools.ietf.org/html/rfc7826#section-18.54) Transport
