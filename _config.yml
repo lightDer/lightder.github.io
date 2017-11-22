@@ -20,7 +20,12 @@ github:
 # markdown
 markdown: kramdown
 
-plugins: ["jekyll-paginate"]
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+
+feed:
+  path: atom.xml
 
 # page
 pages_list:
