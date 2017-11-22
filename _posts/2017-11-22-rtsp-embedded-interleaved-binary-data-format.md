@@ -4,7 +4,9 @@ title: RTSP Embedded interleaved binary data format
 ---
 
 只能在 RTSP over TCP 使用，在 SETUP 時加上 interleaved 的參數，後面的數字分別對應 RTP/RTCP 的 channel ID。
+
 client request 指定的 channel number **只是參考**，server 不一定會採用，具體還是要看 server 回覆的訊息。
+
 如下例，分別指定 RTP/RTCP 是 0/1，server 回覆是 5/6，所以在收碼流的時候要用 5/6（RTC/RTCP）來判斷。
 
 ```
@@ -27,7 +29,7 @@ RTSP method 問答結束後就進入收碼流的階段，每一包 RTP packet �
 
 - [0]，`$` (0x24)，用來鑑別開頭
 - [1]，channel identifier (RTC/RTCP)
-- [2 - 3]，是指後面 RTP packet 的長度，two-octet unsigned integer in network octet order (Big-Endian)
+- [2 - 3]，係指後面 RTP packet 的長度，two-octet unsigned integer in network octet order (Big-Endian)
 
 ```
 S->C: $005{2 octet length}{"length" octets data, w/RTP header}
@@ -39,5 +41,5 @@ S->C: $006{2 octet length}{"length" octets  RTCP packet}
 
 ## reference
 
-- https://tools.ietf.org/html/rfc7826#page-101Embedded (Interleaved) Binary Data method
-- https://tools.ietf.org/html/rfc7826#section-18.54 Transport
+- [rfc7826#page-101Embedded](https://tools.ietf.org/html/rfc7826#page-101Embedded) (Interleaved) Binary Data method
+- [rfc7826#section-18.54](https://tools.ietf.org/html/rfc7826#section-18.54) Transport
