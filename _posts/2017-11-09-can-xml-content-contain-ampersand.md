@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can XML content contain &(ampersand) ?
+title: Can XML content contain Ampersand ?
 ---
 
 答案是不行，需要 escape 成 `&amp;`。
