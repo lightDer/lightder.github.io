@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RTSP: Embedded interleaved binary data format
+title: RTSP Embedded interleaved binary data format
 ---
 
 只能在 RTSP over TCP 使用，在 SETUP 時加上 interleaved 的參數，後面的數字分別對應 RTP/RTCP 的 channel ID。
